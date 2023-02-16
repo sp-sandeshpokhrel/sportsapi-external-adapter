@@ -23,7 +23,7 @@ const createRequest = (input, callback) => {
   const match = validator.validated.data.match
   console.log(typeof match)
   const url = `https://api.football-data.org/v4/matches/${match}`
-  const api_key = process.env.API_KEY;
+
 
   const head = {
     "X-Auth-Token": "7feefaada93c4992af729bf0b67fb77f"
